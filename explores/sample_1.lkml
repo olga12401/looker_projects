@@ -1,4 +1,5 @@
 include: "/views/*"
+
 explore: orders {
   join: customer {
     relationship: many_to_one
