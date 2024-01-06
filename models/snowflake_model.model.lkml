@@ -1,6 +1,7 @@
 connection: "snowflake_sample"
 
-include: "/views/*.view.lkml"
+include: "/views/*"
+include: "/explores/*.explore.lkml"
 
 
 
